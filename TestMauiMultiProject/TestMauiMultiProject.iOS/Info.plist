@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>TestMauiMultiProject</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.companyname.testmauimultiproject</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>UIDeviceFamily</key>
+    <array>
+        <integer>1</integer>
+        <integer>2</integer>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>MinimumOSVersion</key>
+    <string>15.0</string>
+    <key>CFBundleIconFiles</key>
+    <array />
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIAppFonts</key>
+    <array>
+        <string>Fonts/Yrsa-Bold.ttf</string>
+        <string>Fonts/Bravura.otf</string>
+        <string>Fonts/Instruments.ttf</string>
+        <string>Fonts/FontAwesome.otf</string>
+        <string>Fonts/ionicons.ttf</string>
+        <string>Fonts/customIcons.ttf</string>
+    </array>
+    <key>UIStatusBarHidden</key>
+    <true />
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false />
+    <key>UIRequiresFullScreen</key>
+    <true />
+    <key>NSMicrophoneUsageDescription</key>
+    <string>We need access to your microphone to hear you play.</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>We need to access bluetooth devices to be able to use bluetooth audio for our live feedback.</string>
+    <key>UIPrerenderedIcon</key>
+    <false />
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>at.funmusic.sepp.mobile</string>
+                <!-- facebook start -->
+                <string>fb115563162486030wind</string>
+                <!-- facebook end -->
+            </array>
+        </dict>
+    </array>
+    <key>LSRequiresIPhoneOS</key>
+    <true />
+    <key>CFBundleVersion</key>
+    <string>5.42.99999</string>
+    <key>XSAppIconAssets</key>
+    <string>Resources/Media.xcassets/AppIcon.appiconset</string>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false />
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>en</string>
+        <string>de</string>
+        <string>es</string>
+        <string>pt</string>
+        <string>fr</string>
+        <string>zh-hans</string>
+        <string>zh-hant</string>
+    </array>
+
+    <!-- Facebook General START -->
+    <key>FacebookAppID</key>
+    <string>115563162486030</string>
+    <key>FacebookClientToken</key>
+    <string>6579fd5665996c36c1d4ad0228d3038f</string>
+    <key>FacebookDisplayName</key>
+    <string>tonestro</string>
+    <key>FacebookUrlSchemeSuffix</key>
+    <string>wind</string>
+    <!-- Facebook General END -->
+
+    <!-- Facebook Dialogs START -->
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fbapi20130214</string>
+        <string>fbapi20130410</string>
+        <string>fbapi20130702</string>
+        <string>fbapi20131010</string>
+        <string>fbapi20131219</string>
+        <string>fbapi20140410</string>
+        <string>fbapi20140116</string>
+        <string>fbapi20150313</string>
+        <string>fbapi20150629</string>
+        <string>fbapi20160328</string>
+        <string>fbauth</string>
+        <string>fb-messenger-share-api</string>
+        <string>fbauth2</string>
+        <string>fbshareextension</string>
+    </array>
+    <!-- Facebook Dialogs END -->
+
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>remote-notification</string>
+    </array>
+
+    <key>AppCenterAppDelegateForwarderEnabled</key>
+    <integer>0</integer>
+    <key>AppCenterUserNotificationCenterDelegateForwarderEnabled</key>
+    <integer>0</integer>
+    <key>NSCameraUsageDescription</key>
+    <string>This app needs access to the camera to take photos.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photos to upload a profile picture.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This app needs access to the photo gallery.</string>
+
+    <key>UIUserInterfaceStyle</key>
+    <string>Light</string>
+
+    <key>NSAdvertisingAttributionReportEndpoint</key>
+    <string>https://appsflyer-skadnetwork.com/</string>
+
+    <key>NSUserTrackingUsageDescription</key>
+    <string>Help tonestro reach more music lovers by reducing unnecessary advertising</string>
+
+    <key>FacebookAutoLogAppEventsEnabled</key>
+    <false />
+    <key>FacebookAdvertiserIDCollectionEnabled</key>
+    <true />
+</dict>
+</plist>

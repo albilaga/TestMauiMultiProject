@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TestMauiMultiProject.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:buttons="http://schemas.syncfusion.com/maui"
+    xmlns:xaml="http://prismlibrary.com">
+
+    <ContentView Padding="30,0" VerticalOptions="Fill">
+        <StackLayout Spacing="25" VerticalOptions="Center">
+            <Image
+                Aspect="AspectFit"
+                HeightRequest="185"
+                SemanticProperties.Description="dot net bot in a race car number eight"
+                Source="dotnet_bot.png" />
+            <ContentView xaml:RegionManager.RegionName="TitleRegion" />
+
+            <Label
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                SemanticProperties.HeadingLevel="Level2"
+                Text="Welcome to &#10;.NET Multi-platform App UI" />
+
+            <buttons:SfButton
+                x:Name="CounterBtn"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Text="Click me" />
+        </StackLayout>
+    </ContentView>
+
+</ContentPage>
