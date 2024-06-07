@@ -8,12 +8,20 @@ public partial class MainPage : ContentPage
 {
     int count = 0;
 
+    private readonly IRegionManager _regionManager;
+
     public MainPage(IRegionManager regionManager)
     {
         // On<iOS>().SetUseSafeArea(false);
         NavigationPage.SetHasNavigationBar(this, false);
         InitializeComponent();
-        regionManager.RequestNavigate("TitleRegion",nameof(TitleLabel));
+        _regionManager = regionManager;
+    }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        _regionManager.RequestNavigate("TitleRegion", nameof(TitleLabel));
     }
 
     private void OnCounterClicked(object sender, EventArgs e)
